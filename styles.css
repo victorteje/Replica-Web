@@ -43,16 +43,20 @@ h2 {
     font-size: 125%;
 }
 
-.download {
+.downloadButtons {
     display: flex;
     justify-content: space-around;
     position: relative;
+    max-width: 15%;
     margin: auto;
+}
+
+.download {
     background-color: rgb(255, 20, 79);
     color: white;
     border-radius: 20px;
-    width: 8%;
-    padding: .5%;
+    width: 50%;
+    padding: 2.5%;
     font-weight: bold;
 }
 
