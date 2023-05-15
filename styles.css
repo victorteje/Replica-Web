@@ -19,6 +19,15 @@ nav li {
     font-weight: bold;
 }
 
+.navButton {
+    border-radius: 20px;
+    border:  solid rgb(255, 20, 79);
+    color: rgb(255, 20, 79);
+    background-color: white;
+    padding: 10%;
+    width: 150%;
+    font-weight: bolder;
+}
 
 h1 {
     font-family: "Open Sans";
