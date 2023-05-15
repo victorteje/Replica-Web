@@ -16,6 +16,7 @@ nav {
 nav li {
     display: inline-block;
     padding: 1%;
+    font-weight: bold;
 }
 
 
@@ -38,6 +39,12 @@ h2 {
     justify-content: space-around;
     position: relative;
     margin: auto;
+    background-color: rgb(255, 20, 79);
+    color: white;
+    border-radius: 20px;
+    width: 8%;
+    padding: .5%;
+    font-weight: bold;
 }
 
 .headerIphone {
