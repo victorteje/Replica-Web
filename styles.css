@@ -5,13 +5,22 @@
 
 h1 {
     font-family: "Open Sans";
+    text-align: center;
 }
 
 h2 {
     font-family: "Open Sans";
     font-weight: normal;
+    text-align: center;
 }
 
 nav li {
     display: inline-block;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    position: absolute;
 }
