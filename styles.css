@@ -3,6 +3,8 @@
     src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext);
 }
 
+/*Navbar*/
+
 .logo {
     width: 5%;
     position: absolute;
@@ -29,9 +31,14 @@ nav li {
     font-weight: bolder;
 }
 
+/*Home page*/
+
+.homeText {
+    text-align: center;
+}
+
 h1 {
     font-family: "Open Sans";
-    text-align: center;
     font-size: 300%;
     font-weight: 900;
 }
@@ -39,9 +46,9 @@ h1 {
 h2 {
     font-family: "Open Sans";
     font-weight: normal;
-    text-align: center;
     font-size: 125%;
 }
+
 
 .downloadButtons {
     display: flex;
@@ -75,4 +82,11 @@ h2 {
     flex-wrap: wrap;
     padding: 1%;
     font-weight: bold;
+}
+
+/*Description page*/
+
+.descriptionParagraph {
+    margin-left: 50%;
+    padding: 5%;
 }
