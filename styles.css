@@ -45,9 +45,9 @@ h2 {
 
 .downloadButtons {
     display: flex;
-    justify-content: center;
-    position: relative;
-    max-width: 15%;
+    justify-content: space-around;
+    max-width: 20%;
+    max-height: 15%;
     margin: auto;
 }
 
@@ -72,6 +72,7 @@ h2 {
     position: relative;
     display: inline-flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 1%;
     font-weight: bold;
 }
