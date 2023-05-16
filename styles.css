@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "Open Sans";
-    src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext);
-}
-
 /*Navbar*/
 
 .logo {
@@ -53,16 +48,16 @@ h2 {
 .downloadButtons {
     display: flex;
     justify-content: space-around;
-    max-width: 20%;
+    max-width: 500px;
     max-height: 15%;
     margin: auto;
 }
 
-.download {
+.redbutton {
     background-color: rgb(255, 20, 79);
     color: white;
     border-radius: 20px;
-    width: 50%;
+    width: 200px;
     padding: 2%;
     font-weight: bold;
 }
@@ -86,7 +81,20 @@ h2 {
 
 /*Description page*/
 
-.descriptionParagraph {
+.descriptionTop {
+    height: 100px;
+}
+
+.descriptionImageTop {
+    max-height: 100%;
+    max-width: 50%;
+    position: absolute;
+}
+
+
+.descriptionTextTop {
     margin-left: 50%;
     padding: 5%;
+    max-height: fit-content;
 }
+
