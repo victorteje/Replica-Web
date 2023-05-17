@@ -73,17 +73,18 @@ h2 {
     margin-top: 5%;
 }
 
-.icons img {
+.options img {
     width: 50px;
-    display: inline-flex;
-    justify-content: space-around;
+    display: flex;
     flex-wrap: wrap;
 }
 
 .options li {
     position: relative;
-    display: inline-flex;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     font-weight: bold;
 }
