@@ -1,20 +1,28 @@
 /*Navbar*/
 
-.logo {
-    width: 5%;
-    position: absolute;
-}
-
 nav {
-    text-align: right;
-    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-nav li {
-    display: inline-block;
-    padding: 1%;
-    font-weight: bold;
+img {
+        max-height: 36px;
 }
+
+ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 24px;
+   list-style: none;
+}
+
 
 .navButton {
     border-radius: 20px;
@@ -69,8 +77,9 @@ h2 {
 
 .icons img {
     width: 50px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .options li {
