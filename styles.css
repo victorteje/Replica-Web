@@ -149,6 +149,28 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+    list-style-type: square;
+}
+
+.descriptionPartTwo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.descriptionPartTwoImage {
+    max-width: 50%;
+}
+
+.descriptionPartTwoImage {
+    max-width: 50%;
+}
+
+.descriptionPartTwoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    list-style-image: url(./media/check-solid.svg)
 }
 
 
