@@ -96,41 +96,6 @@ h2 {
 
 /*Description page*/
 
-/*
-
-
-
-.squareButton {
-    height: 50px;
-    width: 150px;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-#schedule {
-    color: white;
-    background-color: mediumpurple;
-}
-
-.descriptionBottomText {
-    max-width: 50%;
-    font-size: larger;
-    text-align: left;
-    position: absolute;
-}
-
-.descriptionBottomImage {
-    margin-left: 50%;    
-}
-
-#privacy {
-    border-radius: 20px;
-    width: 200px;
-    padding: 10px 25px;
-    font-weight: bold;
-}
-*/
-
 .descriptionPartOne {
     display: flex;
     justify-content: space-evenly;
@@ -140,7 +105,11 @@ h2 {
     max-width: 50%;
 }
 
-.descriptionPartOneImage {
+.descriptionPartOneImage img{
+    max-height: 500px;
+}
+
+.descriptionPartOneText {
     max-width: 50%;
 }
 
@@ -165,6 +134,10 @@ h2 {
     max-width: 50%;
 }
 
+.descriptionPartTwoImage img{
+    max-height: 50%;
+}
+
 .descriptionPartTwoList {
     display: flex;
     flex-direction: column;
@@ -173,6 +146,25 @@ h2 {
     list-style-image: url(./media/check-solid.svg)
 }
 
+.squareButton {
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#schedule {
+    color: white;
+    background-color: mediumpurple;
+}
+
+
+#privacy {
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
 
 /*Screens page*/
 
