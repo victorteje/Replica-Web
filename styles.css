@@ -67,6 +67,12 @@ h2 {
     margin-top: 5%;
 }
 
+.icons img {
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .options li {
     margin-left: 10%;
     position: relative;
@@ -119,4 +125,11 @@ h2 {
 .descriptionImageBottom {
     margin-left: 50%;    
 }
+
+#privacy {
+
+}
+
+
+/*Screens page*/
 
