@@ -117,14 +117,14 @@ h2 {
     background-color: mediumpurple;
 }
 
-.descriptionTextBottom {
+.descriptionTopText {
     max-width: 50%;
     font-size: larger;
     text-align: left;
     position: absolute;
 }
 
-.descriptionImageBottom {
+.descriptionBottomImage {
     margin-left: 50%;    
 }
 
