@@ -96,14 +96,9 @@ h2 {
 
 /*Description page*/
 
-.descriptionTopImage {
-    max-width: 50%;
-}
+/*
 
-.descriptionTopText {
-    margin-left: 50%;
-    padding: 5%;
-}
+
 
 .squareButton {
     height: 50px;
@@ -134,6 +129,28 @@ h2 {
     padding: 10px 25px;
     font-weight: bold;
 }
+*/
+
+.descriptionPartOne {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.descriptionPartOneImage {
+    max-width: 50%;
+}
+
+.descriptionPartOneImage {
+    max-width: 50%;
+}
+
+.descriptionPartOneList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
 
 /*Screens page*/
 
