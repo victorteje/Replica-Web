@@ -80,7 +80,7 @@ h2 {
 /*Description page*/
 
 .descriptionTop {
-    height: 100px;
+    
 }
 
 .descriptionImageTop {
@@ -95,3 +95,15 @@ h2 {
     max-height: fit-content;
 }
 
+
+.squareButton {
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#schedule {
+    color: white;
+    background-color: mediumpurple;
+}
