@@ -50,12 +50,10 @@ h2 {
     font-size: 125%;
 }
 
-
 .downloadButtons {
     display: flex;
     justify-content: space-around;
     max-width: 500px;
-    max-height: 15%;
     margin: auto;
 }
 
@@ -88,7 +86,6 @@ h2 {
     display: inline-flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 1%;
     font-weight: bold;
 }
 
@@ -96,16 +93,12 @@ h2 {
 
 
 .descriptionTopImage {
-    max-height: 600px;
     max-width: 50%;
-    position: absolute;
 }
-
 
 .descriptionTextTop {
     margin-left: 50%;
     padding: 5%;
-    max-height: fit-content;
 }
 
 
