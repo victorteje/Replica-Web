@@ -124,7 +124,10 @@ h2 {
 }
 
 #privacy {
-    
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px 25px;
+    font-weight: bold;
 }
 
 
