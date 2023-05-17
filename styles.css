@@ -56,7 +56,7 @@ h2 {
     color: white;
     border-radius: 20px;
     width: 200px;
-    padding: 2%;
+    padding: 0 1%;
     font-weight: bold;
 }
 
@@ -101,7 +101,7 @@ h2 {
     height: 50px;
     width: 150px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #schedule {
