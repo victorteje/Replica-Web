@@ -73,6 +73,11 @@ h2 {
     margin-top: 5%;
 }
 
+.options ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .options img {
     width: 50px;
     display: flex;
