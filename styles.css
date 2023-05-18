@@ -105,6 +105,14 @@ h2 {
     font-weight: bold;
 }
 
+.iconCircle {
+    border-radius: 50%;
+}
+
+#usersCircle {
+    background-color: orchid;
+}
+
 #usersIcon {
     filter: invert(17%) sepia(62%) saturate(3180%) hue-rotate(288deg) brightness(94%) contrast(110%);
 }
