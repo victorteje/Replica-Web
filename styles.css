@@ -11,16 +11,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 64px;
-    max-width: 1200px;
+    max-width: 80%;
     margin: auto;
     font-weight: bolder;
+    background-color: white;
 }
 
 .logo {
     max-height: 36px;
 }
 
-ul {
+.navList {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -105,6 +106,7 @@ h1 {
 .options ul {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .options img {
