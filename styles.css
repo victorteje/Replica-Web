@@ -6,8 +6,6 @@ header {
 }
 
 nav {
-    /* position: sticky;
-    top: 0; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -91,6 +89,7 @@ h2 {
 
 .options img {
     width: 50px;
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -107,6 +106,12 @@ h2 {
 
 .iconCircle {
     border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 #usersCircle {
@@ -115,6 +120,10 @@ h2 {
 
 #usersIcon {
     filter: invert(17%) sepia(62%) saturate(3180%) hue-rotate(288deg) brightness(94%) contrast(110%);
+}
+
+#analysisCircle {
+    background-color: lightgreen;
 }
 
 #analysisIcon {
