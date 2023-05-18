@@ -36,6 +36,10 @@ ul {
 
 /*Home page*/
 
+section {
+    margin-bottom: 10%;
+ }
+
 .homeText {
     text-align: center;
 }
