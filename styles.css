@@ -78,10 +78,10 @@ h2 {
 }
 
 .headerIphone {
-    width: 30%;
+    width: 40%;
     display: flex;
     margin: auto;
-    margin-top: 5%;
+    padding: 5%;
 }
 
 .options ul {
