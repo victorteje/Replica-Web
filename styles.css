@@ -162,11 +162,8 @@ h1 {
 
 .descriptionPartOne {
     display: flex;
-    justify-content: space-evenly;
-}
-
-.descriptionPartOneImage {
-    max-width: 50%;
+    justify-content: space-around;
+    padding: 0 10%;
 }
 
 .descriptionPartOneImage img{
@@ -187,19 +184,12 @@ h1 {
 
 .descriptionPartTwo {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 0 10%;
 }
 
-.descriptionPartTwoImage {
-    max-width: 50%;
-}
-
-.descriptionPartTwoImage {
-    max-width: 50%;
-}
-
-.descriptionPartTwoImage img{
-    max-height: 50%;
+.descriptionPartTwoImage img {
+    max-height: 500px;
 }
 
 .descriptionPartTwoList {
@@ -211,8 +201,8 @@ h1 {
 }
 
 .squareButton {
-    height: 50px;
-    width: 150px;
+    height: 35px;
+    width: 125px;
     font-weight: bold;
     font-size: 1em;
 }
