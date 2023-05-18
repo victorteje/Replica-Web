@@ -187,7 +187,7 @@ h1 {
 }
 
 .descriptionPartOneText {
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .descriptionPartOneList {
@@ -202,6 +202,10 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 0 10%;
+}
+
+.descriptionPartTwoText {
+    max-width: 40%;
 }
 
 .descriptionPartTwoImage img {
