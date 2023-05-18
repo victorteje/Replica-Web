@@ -130,12 +130,24 @@ h2 {
     filter: invert(45%) sepia(81%) saturate(578%) hue-rotate(81deg) brightness(84%) contrast(96%);
 }
 
+#taskCircle {
+    background-color: lightpink;
+}
+
 #taskIcon {
     filter: invert(7%) sepia(100%) saturate(7195%) hue-rotate(354deg) brightness(128%) contrast(95%);
 }
 
+#socialCircle {
+    background-color: PapayaWhip;
+}
+
 #socialIcon {
     filter: invert(48%) sepia(99%) saturate(1513%) hue-rotate(358deg) brightness(102%) contrast(83%);
+}
+
+#thingsDoneCircle {
+    background-color: LightCyan;
 }
 
 #thingsDoneIcon {
