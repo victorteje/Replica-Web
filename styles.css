@@ -228,10 +228,16 @@ h1 {
     background-color: mediumpurple;
 }
 
+#terms {
+    background-color: rgb(255, 20, 79);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
 
 #privacy {
     border-radius: 20px;
-    width: 200px;
     padding: 10px 25px;
     font-weight: bold;
 }
