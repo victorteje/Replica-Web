@@ -98,6 +98,26 @@ h2 {
     font-weight: bold;
 }
 
+#usersIcon {
+    filter: invert(17%) sepia(62%) saturate(3180%) hue-rotate(288deg) brightness(94%) contrast(110%);
+}
+
+#analysisIcon {
+    filter: invert(45%) sepia(81%) saturate(578%) hue-rotate(81deg) brightness(84%) contrast(96%);
+}
+
+#taskIcon {
+    filter: invert(7%) sepia(100%) saturate(7195%) hue-rotate(354deg) brightness(128%) contrast(95%);
+}
+
+#socialIcon {
+    filter: invert(48%) sepia(99%) saturate(1513%) hue-rotate(358deg) brightness(102%) contrast(83%);
+}
+
+#thingsDoneIcon {
+    filter: invert(43%) sepia(59%) saturate(3192%) hue-rotate(164deg) brightness(97%) contrast(85%);
+}
+
 /*Description page*/
 
 .descriptionPartOne {
