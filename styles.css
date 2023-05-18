@@ -40,6 +40,10 @@ ul {
     font-weight: bolder;
 }
 
+button {
+    cursor:pointer;
+}
+
 /*Home page*/
 
 section {
