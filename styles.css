@@ -243,6 +243,7 @@ h2 {
     align-items: baseline;
     list-style-type: square;
     font-size: 1.1em;
+    padding: 17px;
 }
 
 .descriptionPartTwo {
@@ -268,6 +269,7 @@ h2 {
     align-items: baseline;
     list-style-image: url(./media/check-solid.svg);
     font-size: 1.1em;
+    padding: 17px;
 }
 
 .squareButton {
