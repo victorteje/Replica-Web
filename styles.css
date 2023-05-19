@@ -1,3 +1,25 @@
+/*General*/
+
+section {
+    margin-bottom: 10%;
+}
+
+button {
+    cursor:pointer;
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px 5px red;  
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 /*Navbar*/
 
 header {
@@ -10,6 +32,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     height: 60px;
     padding: 0 5%;
     font-weight: bolder;
@@ -25,6 +48,7 @@ nav {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   flex-wrap: wrap;
    gap: 5%;
    list-style: none;
    min-width: 40%;
@@ -63,27 +87,9 @@ nav {
     font-weight: bolder;
 }
 
-button {
-    cursor:pointer;
-}
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
 
 /*Home page*/
-
-section {
-    margin-bottom: 10%;
-}
-
-button:hover {
-    box-shadow: 0px 0px 40px 15px red;  
-}
 
 #home {
     background-color: #F0F1F2;
