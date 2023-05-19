@@ -350,16 +350,16 @@ h2 {
     padding: 6% 0 0 0;
 }
 
-.testimonialsTop {
+.testimonials {
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
-    margin-top: 2%;
+    margin: 2% 0;
 }
 
-.testimonialsTop li {
+.testimonials li {
     text-align: center;
     max-width: 20%;
     display: flex;
@@ -379,3 +379,23 @@ h2 {
     filter: invert(74%) sepia(55%) saturate(2454%) hue-rotate(349deg) brightness(101%) contrast(101%);
 }
 
+.companyLogos {
+    background-color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 2%;
+    max-width: 80%;
+}
+
+.numbers {
+    background-color: #E8EFF6;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    font-weight: bolder
+}
