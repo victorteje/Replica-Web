@@ -79,7 +79,11 @@ a:visited {
 
 section {
     margin-bottom: 10%;
- }
+}
+
+button:hover {
+    box-shadow: 0px 0px 40px 15px red;  
+}
 
 #home {
     background-color: #F0F1F2;
