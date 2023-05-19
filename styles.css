@@ -11,10 +11,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 64px;
-    max-width: 80%;
+    padding: 0 5%;
     margin: auto;
     font-weight: bolder;
-    background-color: white;
+    background-color: #F0F1F2;
 }
 
 .logo {
@@ -45,11 +45,23 @@ button {
     cursor:pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 /*Home page*/
 
 section {
     margin-bottom: 10%;
  }
+
+#home {
+    background-color: #F0F1F2;
+}
 
  .diamondCircle {
     display: flex;
@@ -60,10 +72,6 @@ section {
  .diamondCircle img {
     max-width: 1.5%;
  }
-
-a {
-    text-decoration: none;
-}
 
 .homeText {
     text-align: center;
