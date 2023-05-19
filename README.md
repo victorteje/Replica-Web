@@ -1,11 +1,11 @@
 # Replica-Web
 
- Página web estática, responsive y con animaciones, haciendo uso de HTML y CSS.
+Static web page, responsive and animated, making use of HTML and CSS.
 
-- La página es una réplica exacta de los mockups entregados, cumpliendo con: la paleta de colores, la fuente y la iconografía.
-- Todos los botones son clickables.
-- La navbar es estática y no se mueve al hacer scroll en la página.
-- El botón "Download" de la navbar lleva a la página de Factoría F5.
-- El móvil de la sección “Mobile app landing page” cuenta con una animación.
-- Cuando el usuario pasa por encima de un botón, éste muestra un efecto de brillo.
-- Cuando un usuario pasa por encima de un icono, éste muestra una animación.
+- The page is an exact replica of the provided mockups, including: color palette, fonts and iconography.
+- All the buttons are clickable.
+- The navbar is static and remains in place when scrolling.
+- The "download" button directs the user to Factoría F5's website.
+- The mobile image in the Mobile App Landing Page is animated.
+- Hovering over the buttons will show a shine effect.
+- Hovering over an icon will show an animation.
