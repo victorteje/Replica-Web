@@ -51,6 +51,16 @@ section {
     margin-bottom: 10%;
  }
 
+ .diamondCircle {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+ }
+
+ .diamondCircle img {
+    max-width: 1.5%;
+ }
+
 a {
     text-decoration: none;
 }
@@ -204,6 +214,8 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 0 10%;
+    background-color: #F0F1F2;
+    padding: 4% 0;
 }
 
 .descriptionPartTwoText {
