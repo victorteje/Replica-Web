@@ -30,8 +30,21 @@ nav {
    list-style: none;
 }
 
-.dropdownMenu {
-    
+.dropdownMenu{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownOptions {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    padding: 10% 50%;
+}
+
+.dropdownMenu:hover .dropdownOptions {
+    display: block;
 }
 
 .navButton {
