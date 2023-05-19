@@ -1,5 +1,7 @@
 # Replica-Web
 
+*WORK IN PROGRESS*
+
 Static web page, responsive and animated, making use of HTML and CSS.
 
 - The page is an exact replica of the provided mockups, including: color palette, fonts and iconography.
