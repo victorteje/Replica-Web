@@ -172,43 +172,43 @@ h1 {
 }
 
 #usersCircle {
-    background-color: orchid;
+    background-color: #E8E3F9;
 }
 
 #usersIcon {
-    filter: invert(17%) sepia(62%) saturate(3180%) hue-rotate(288deg) brightness(94%) contrast(110%);
+    filter: invert(61%) sepia(47%) saturate(4745%) hue-rotate(225deg) brightness(95%) contrast(91%);
 }
 
 #analysisCircle {
-    background-color: lightgreen;
+    background-color: #D5F2ED;
 }
 
 #analysisIcon {
-    filter: invert(45%) sepia(81%) saturate(578%) hue-rotate(81deg) brightness(84%) contrast(96%);
+    filter: invert(58%) sepia(36%) saturate(1620%) hue-rotate(116deg) brightness(97%) contrast(81%);
 }
 
 #taskCircle {
-    background-color: lightpink;
+    background-color: #F7E1E7;
 }
 
 #taskIcon {
-    filter: invert(7%) sepia(100%) saturate(7195%) hue-rotate(354deg) brightness(128%) contrast(95%);
+    filter: invert(41%) sepia(14%) saturate(5589%) hue-rotate(319deg) brightness(102%) contrast(100%);
 }
 
 #socialCircle {
-    background-color: PapayaWhip;
+    background-color: #F7EFD9;
 }
 
 #socialIcon {
-    filter: invert(48%) sepia(99%) saturate(1513%) hue-rotate(358deg) brightness(102%) contrast(83%);
+    filter: invert(62%) sepia(96%) saturate(570%) hue-rotate(348deg) brightness(101%) contrast(102%);
 }
 
 #thingsDoneCircle {
-    background-color: LightCyan;
+    background-color: #DDF0F9;
 }
 
 #thingsDoneIcon {
-    filter: invert(43%) sepia(59%) saturate(3192%) hue-rotate(164deg) brightness(97%) contrast(85%);
+    filter: invert(63%) sepia(75%) saturate(1228%) hue-rotate(170deg) brightness(95%) contrast(88%);
 }
 
 /*Description page*/
@@ -221,7 +221,8 @@ h2 {
 .descriptionPartOne {
     display: flex;
     justify-content: space-around;
-    padding: 0 10%;
+    flex-wrap: wrap;
+    padding: 0 10%;    
 }
 
 .descriptionPartOneImage img{
@@ -249,6 +250,7 @@ h2 {
 .descriptionPartTwo {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 0 10%;
     background-color: #F0F1F2;
     padding: 4% 0;
@@ -300,3 +302,6 @@ h2 {
 
 /*Screens page*/
 
+.screensTitle {
+    text-align: center;
+}
